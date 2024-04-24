@@ -10,12 +10,12 @@ Before diving into the coding details, let's set up our project with a solid and
 
 1. **Create a New SwiftUI Project**: Name your project `NameOfApp`, which will automatically create a file named `NameOfAppApp.swift`. This will be the entry point of your application.
 2. **Organize Your Code with Folders**:
-   - **Modules Folder**: This will contain all your feature modules. Each module can have its own set of views, models, and other files.
+   - **Modules Folder**: This will contain all your feature modules. Each module can have its own set of views, viewmodels, and other files.
    - **Models Folder**: Dedicated to storing your data models. This is where you'll keep your app's data structures.
 
 ### Detailed Folder Structure:
 - **NavigationRouter Folder**: Inside the `Modules` folder, create a subfolder named `NavigationRouter`. This will contain your navigation logic.
-  - Inside `NavigationRouter`, you can also create additional folders for each view, such as a `Home` folder containing `HomeView.swift`.
+- **Inside the modules folder, you can also create additional folders for each view, such as a `Home` folder containing `HomeView.swift`.
 - **Path File**: In the `Models` folder, create a file named `Path.swift` where you will define your navigation paths using an enum.
 
 This organization not only keeps your project tidy but also makes it easier to manage as it grows in complexity.
