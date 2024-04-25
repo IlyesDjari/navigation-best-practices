@@ -8,7 +8,7 @@ Embarking on a SwiftUI journey? Great! Navigation is a cornerstone of any mobile
 
 Before diving into the coding details, let's set up our project with a solid and organized foundation:
 
-1. **Create a New SwiftUI Project**: Name your project `NameOfApp`, which will automatically create a file named `NameOfAppApp.swift`. This will be the entry point of your application.
+1. **Create a New SwiftUI Project**: Name your project `visionProRouting`, which will automatically create a file named `visionProRoutingApp.swift`. This will be the entry point of your application.
 2. **Organize Your Code with Folders**:
    - **Modules Folder**: This will contain all your feature modules. Each module can have its own set of views, viewmodels, and other files.
    - **Models Folder**: Dedicated to storing your data models. This is where you'll keep your app's data structures.
